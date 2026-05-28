@@ -20,7 +20,7 @@ export default function App() {
         <Hobbies />
       </main>
       <footer className="bg-slate-950 text-center py-12 text-[10px] font-mono text-slate-600 border-t border-slate-900">
-        © {new Date().getFullYear()} Ronit Naik // Built with React + Tailwind v4.
+        © {new Date().getFullYear()} Ronit Naik
       </footer>
     </div>
   );

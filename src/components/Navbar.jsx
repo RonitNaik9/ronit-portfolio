@@ -9,11 +9,12 @@ export default function Navbar() {
           ronit.naik()
         </a>
         <div className="space-x-6 text-xs font-mono text-slate-400">
-          <a href="#skills" className="hover:text-emerald-400 transition">.skills()</a>
-          <a href="#projects" className="hover:text-emerald-400 transition">.projects()</a>
           <a href="#experience" className="hover:text-emerald-400 transition">.experience()</a>
-          <a href="#hobbies" className="hover:text-rose-400 transition">.interests()</a> {/* Added here */}
+          <a href="#projects" className="hover:text-emerald-400 transition">.projects()</a>
+          <a href="#skills" className="hover:text-emerald-400 transition">.skills()</a>
           <a href="#education" className="hover:text-emerald-400 transition">.education()</a>
+          <a href="#hobbies" className="hover:text-rose-400 transition">.interests()</a> {/* Added here */}
+          
         </div>
       </div>
     </nav>

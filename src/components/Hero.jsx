@@ -1,6 +1,6 @@
 import React from 'react';
 import { portfolioData } from '../data/portfolioData';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from 'react-icons/fa';
 
 export default function Hero() {
   const { profile } = portfolioData;
@@ -28,11 +28,31 @@ export default function Hero() {
           {profile.subtitle}
         </p>
         
-        <div className="flex justify-center space-x-4 mt-10">
-          <a href={profile.github} target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700 transition duration-300"><FaGithub className="text-xl" /></a>
-          <a href={profile.linkedin} target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700 transition duration-300"><FaLinkedin className="text-xl" /></a>
-          <a href={`mailto:${profile.email}`} className="flex items-center justify-center w-12 h-12 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700 transition duration-300"><FaEnvelope className="text-xl" /></a>
-        </div>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-12">
+  
+            {/* Social Icons Container */}
+            <div className="flex space-x-4">
+              <a href={profile.github} target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700 transition duration-300">
+                <FaGithub className="text-xl" />
+              </a>
+              <a href={profile.linkedin} target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700 transition duration-300">
+                <FaLinkedin className="text-xl" />
+              </a>
+              <a href={`mailto:${profile.email}`} className="flex items-center justify-center w-12 h-12 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700 transition duration-300">
+                <FaEnvelope className="text-xl" />
+              </a>
+            </div>
+
+            {/* Premium Download Resume Button */}
+            <a 
+              href={profile.resumeUrl} 
+              download="Ronit_Naik_Resume.pdf" 
+              className="inline-flex items-center justify-center h-12 px-6 rounded-xl font-mono text-xs uppercase tracking-wider bg-emerald-950/40 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500 hover:text-slate-950 hover:shadow-[0_0_20px_rgba(52,211,153,0.3)] transition duration-300 font-bold w-full sm:w-auto mt-2 sm:mt-0"
+            >
+              <FaDownload className="mr-2 text-sm" /> Download Resume
+            </a>
+
+          </div>
       </div>
     </section>
   );

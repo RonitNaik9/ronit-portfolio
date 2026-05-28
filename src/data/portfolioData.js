@@ -6,9 +6,9 @@ export const portfolioData = {
     location: "Boston, MA",
     email: "ronitnaik9@gmail.com",
     github: "https://github.com/RonitNaik9",
-    linkedin: "https://linkedin.com", // Swap with your actual link
+    linkedin: "https://www.linkedin.com/in/ronitnaik9/", 
     citizenship: "US Citizen",
-    resumeUrl: "#" // Link to your hosted resume PDF
+    resumeUrl: "/ronit-portfolio/Ronit_Naik_Resume.pdf" 
   },
   education: [
     {
@@ -29,9 +29,32 @@ export const portfolioData = {
     }
   ],
   skills: {
-    languages: ["Python", "Java", "SQL", "HTML5", "CSS", "JavaScript", "C", "C++", "Cypher"],
-    frameworks: ["ReactJS", "React-Native", "Tensorflow", "PyTorch", "Spring Boot", "FastAPI", "Express.js", "Node.js", "LangGraph", "LangChain"],
-    tools: ["AWS", "Terraform", "Postman", "PowerBI", "Git", "Neo4j", "Azure", "Docker", "Kafka", "PostgreSQL", "MLflow", "Airflow", "Jira"]
+    languages: [
+      "Python", "Java", "SQL", "Cypher (Graph Query)", "C++", "C", "JavaScript (ES6+)", "HTML5/CSS3"
+    ],
+    ai_ml: [
+      "PyTorch", 
+      "TensorFlow / Keras", 
+      "Transformer Architectures (BERT, GPT)", //
+      "Gradient Boosting (XGBoost, AdaBoost, LightGBM)", //
+      "Hyperparameter Optimization (min_child_weight, scale_pos_weight)", //
+      "Sentence-Transformers & Semantic Embeddings", 
+      "Neural Network Optimizers (Adam, SGD, Custom Loss Functions)", //
+      "Scikit-Learn", 
+      "Unsupervised Clustering (DBSCAN, K-Means)", 
+      "Dimensionality Reduction (PCA, t-SNE)",
+      "Time-Series Forecasting (ARIMA Modeling)", 
+      "Statistical EDA & Hypothesis Testing"
+    ],
+    generative_ai: [
+      "LangGraph (Agentic Flows)", "LangChain", "Compound AI Systems", "Advanced RAG Pipelines", 
+      "Multi-Agent Orchestration", "Semantic Similarity Matching", "Vector Embedding Search", "Prompt Engineering"
+    ],
+    infra_mlops: [
+      "AWS (SageMaker, Athena, Lambda, API Gateway)", "Databricks Genie", "Terraform (IaC)", 
+      "Apache Airflow (DAGs)", "Apache Kafka", "Neo4j (Graph DB)", "ChromaDB (Vector DB)", 
+      "MLflow (Experiment Tracking)", "Docker", "PostgreSQL", "RESTful APIs", "WebSockets"
+    ]
   },
   experience: [
     {
@@ -134,18 +157,27 @@ export const portfolioData = {
     manUtd: {
       title: "The Theatre of Dreams",
       subtitle: "Die-hard Manchester United supporter since age 11.",
-      description: "From tactical deep-dives to weekend matchdays, following United isn't just a hobby—it's a lifelong commitment. Just like engineering complex ML models, football is all about strategy, rapid iterations, and trusting the process.",
+      description: "From discussing team line-upsin school to not missing any weekend matchdays, following United isn't just a hobby but it's been a lifelong commitment. Just like engineering complex ML models, football is all about strategy, rapid iterations, and trusting the process.",
       imageUrl: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&q=80&w=1200" // High-quality generic stadium light placeholder or replace with your exact Old Trafford image URL
     },
     starWars: {
       title: "Galactic Lore & Worldbuilding",
       subtitle: "May the Force be with your codebase.",
-      description: "Fascinated by sci-fi narratives, multi-layered lore, and cosmic worldbuilding. Leaning heavily into the epic scope of Star Wars taught me to appreciate complex systems, legendary storytelling, and the eternal balance between the light side (clean, pristine production code) and the dark side (spaghetti code written at 3 AM)."
+      description: "Fascinated by sci-fi narratives, multi-layered lore, and cosmic worldbuilding. Leaning heavily into the epic scope of Star Wars taught me to appreciate complex systems, legendary storytelling, and the eternal balance between the light side (clean, pristine production code) and the dark side (spaghetti code written at 3 AM).",
+      // High-quality cinematic deep space/sci-fi portal image asset:
+      imageUrl: "https://images.unsplash.com/photo-1601814933824-fd0b574dd592?auto=format&fit=crop&q=80&w=1200" 
+    },
+    lego: {
+      title: "The Lego Collection",
+      subtitle: "Pure creativity since childhood.",
+      description: "Lego has been a core part of my life since I was a kid. There is still nothing better than picking up a box of bricks, ignoring the instruction manuals, and building completely random stuff just for the pure joy of it. I am also a massive fan of Lego Batman honestly, combining awesome DC characters with nostalgic building blocks is the ultimate way to chill out.",
+      // A bright, colorful, classic close-up snapshot of creative Lego elements
+      imageUrl: "/ronit-portfolio/BatmanDarkKnightLEGO.jpg.webp"
     },
     sports: {
       title: "Active Athleticism",
       subtitle: "Fueling competitive drive on and off the court.",
-      description: "When I'm not behind a screen training neural networks, I'm out playing competitive sports. Staying physically active keeps my problem-solving sharp, fuels my competitive execution drive, and reinforces the absolute power of collaborative teamwork."
+      description: "When I'm not behind a screen training neural networks, I'm out playing competitive sports since staying physically active keeps me energized and always pushes me to master each and every sport. It fuels my competitive execution drive, and reinforces the absolute power of collaborative teamwork."
     }
   }
   

@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Education from './components/Education';
+import Hobbies from './components/Hobbies';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Experience />
         <Projects />
         <Skills />
+        <Hobbies />
         <Education />
       </main>
       <footer className="bg-slate-950 text-center py-12 text-[10px] font-mono text-slate-600 border-t border-slate-900">

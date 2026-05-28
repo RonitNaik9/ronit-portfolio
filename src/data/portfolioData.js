@@ -129,5 +129,24 @@ export const portfolioData = {
       ],
       github: "https://github.com/RonitNaik9"
     }
-  ]
+  ],
+  hobbies: {
+    manUtd: {
+      title: "The Theatre of Dreams",
+      subtitle: "Die-hard Manchester United supporter since age 11.",
+      description: "From tactical deep-dives to weekend matchdays, following United isn't just a hobby—it's a lifelong commitment. Just like engineering complex ML models, football is all about strategy, rapid iterations, and trusting the process.",
+      imageUrl: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&q=80&w=1200" // High-quality generic stadium light placeholder or replace with your exact Old Trafford image URL
+    },
+    starWars: {
+      title: "Galactic Lore & Worldbuilding",
+      subtitle: "May the Force be with your codebase.",
+      description: "Fascinated by sci-fi narratives, multi-layered lore, and cosmic worldbuilding. Leaning heavily into the epic scope of Star Wars taught me to appreciate complex systems, legendary storytelling, and the eternal balance between the light side (clean, pristine production code) and the dark side (spaghetti code written at 3 AM)."
+    },
+    sports: {
+      title: "Active Athleticism",
+      subtitle: "Fueling competitive drive on and off the court.",
+      description: "When I'm not behind a screen training neural networks, I'm out playing competitive sports. Staying physically active keeps my problem-solving sharp, fuels my competitive execution drive, and reinforces the absolute power of collaborative teamwork."
+    }
+  }
+  
 };
